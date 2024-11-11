@@ -25,11 +25,21 @@ To resolve this issue:
     Add changes to git using this command: git add .
 	Commit changes using this command: git commit -m "some message"
 
-
-### Instructor
-
-Ana Lisboa 
-                            
+## Installing
+1. To use these exercise files, you must have the following installed:
+    - php8 server
+    - mysql
+    - sqlite
+    - code editor
+    - git, when using the course git repository
+2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
+3. Clone **.env.example** renaming to **.env** .
+4. Edit .env with your db credentials and the project url.
+5. Run **composer update**.
+6. Run **php artisan key:generate**.
+7. Run **php artisan migrate --seed**.
+8. Run **php artisan storage:link**
+   Login on /login with the email **me@linkedinlearner.com** and the password **me@linkedinlearner.com**
 
 
                             
